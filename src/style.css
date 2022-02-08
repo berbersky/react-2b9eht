@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Cascadia Mono';
+}
+
+h1 {
+  font-family: 'Lato';
+  color: rgb(238, 86, 111);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+li {
+  width: fit-content;
+  font-family: Lato, Quicksand, sans-serif;
+  font-size: 1.5rem;
+  margin: 0.2em;
+  padding: 0.2em 0.4em;
+  color: rgb(1, 25, 49);
+  background-color: #d9e4f5;
+  background-image: linear-gradient(180deg, #d9e4f5 0%, #86e3f89d 74%);
+  border-radius: 4px;
+}
+li::marker {
+  border: 1px solid #5f5f5f;
+  border-radius: 50%;
+  color: #cedd61;
+  margin-left: 20px;
+}
+
+.App {
+  background-color: #15181e;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  min-height: calc(100vh - 2rem);
+}
+body {
+  zoom: 1;
+  padding: 1rem;
+  background-color: #2e3138;
+}
+
+#chronomettre {
+  /* background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */
+  width: max-content;
+  display: grid;
+  place-items: center;
+}
+
+.chrono {
+  display: grid;
+  place-content: left;
+  font-family: Technology, Digital-7, sans-serif;
+  font-weight: bolder;
+  width: 4em;
+  font-size: 2.2rem;
+  /* border: 4px solid rgb(241, 191, 182); */
+  border-radius: 4px;
+  padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px 2px #020202, inset 0 0 8px 4px #cccbca;
+  letter-spacing: 0.1em;
+}
+
+.clock {
+  position: absolute;
+  right: 30px;
+  font-family: Technology, Arial, sans-serif;
+  font-size: 1em;
+  width: 4.5em;
+  font-weight: bolder;
+  line-height: 1.45em;
+  display: inline-block;
+  background-color: #d9e4f582;
+  background-image: linear-gradient(0deg, #d9e4f5 0%, #c6faa39b 74%);
+
+  padding: 0.04em 0.3em 0.04em 0.4em;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #cccbca;
+  /* text-shadow: 0px 0px 2px rgb(2, 2, 2); */
+  color: rgb(1, 78, 9);
+  letter-spacing: 0.1em;
+  box-shadow: inset 0 0 8px 1px #2e313889;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(180deg, #d9e4f5 0%, #f5e3e6 74%);
+  border: 1px solid #adadad;
+  margin: 0.1rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  color: crimson;
+}
+
+button:hover {
+  background-image: linear-gradient(360deg, #d9e4f5 0%, #f5e3e6 74%);
+  color: crimson;
+}
+
+hr {
+  border:0;
+  height: .5px;
+  background-color: #424141;
+ 
+  margin: 1rem 0 1rem 0;
+}
